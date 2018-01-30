@@ -1,0 +1,53 @@
+.text-area, .text-area .viewport, .text-area .content {
+    -fx-background-color: transparent ;
+    -fx-border-color: white;
+    -fx-border-width: 0.1;
+    -fx-border-style: solid;
+    -fx-font-size: 9;
+    -fx-wrap-text: true;
+    -fx-cursor: default;
+    -fx-highlight-fill: null;
+    -fx-highlight-text-fill: null;
+
+    -fx-text-fill: white;
+}
+
+.text-field, .text-field .viewport, .text-field .content, .text-field {
+    -fx-background-color: transparent ;
+    -fx-border-color: white;
+    -fx-border-width: 0.1;
+    -fx-border-style: solid;
+    -fx-font-size: 10;
+    -fx-wrap-text: true;
+    -fx-cursor: default;
+    -fx-highlight-fill: null;
+    -fx-highlight-text-fill: null;
+
+    -fx-text-fill: white;
+}
+
+.text-area .scroll-bar{
+    -fx-background-color: #373737;
+}
+
+.button {
+    /*-fx-font-size: 22;*/
+    -fx-font-family: "Stencil";
+    -fx-background-color: #3d3d3d;
+    -fx-border-style: solid;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-opacity: 70%;
+}
+
+.button:hover {
+    -fx-background-color: #30a630;
+    -fx-opacity: 90%;
+}
+
+.button:focused {
+    -fx-background-color: #30a630;
+    -fx-opacity: 90%;
+}
